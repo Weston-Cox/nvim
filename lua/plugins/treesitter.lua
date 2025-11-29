@@ -38,6 +38,7 @@ return {
                     "typescript",
                     "tsx",
                     "rust",
+                    "go",
                     "zig",
                     "php",
                     "yaml",

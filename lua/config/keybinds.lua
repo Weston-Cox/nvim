@@ -15,6 +15,9 @@ vim.keymap.set("n", "N", "Nzzzv")
 vim.keymap.set("x", "<leader>p", [["_dP]])
 vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]])
 
+-- delete highlighted text without saving to clipboard (MacBook delete key)
+vim.keymap.set("v", "<BS>", [["_d]])
+
 
 -- sometimes in insert mode, control-c doesn't exactly work like escape
 vim.keymap.set("i", "<C-c>", "<Esc>")
